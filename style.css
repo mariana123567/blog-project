@@ -157,112 +157,58 @@ h1 {
   background-color: #39a493;
   border: none;
 }
-.title {
+.title-1 {
   position: relative;
-
-  margin-left: 70px;
+  margin-top: 87px;
+  margin-left: 35px;
   font-size: 25px;
 }
 .modest-left-p1 {
-  position: absolute;
-  margin-top: -278px;
-  margin-left: 60px;
-  margin-right: 500px;
+  margin-top: 65px;
   line-height: 1.5;
 }
 .modest-left-p2 {
-  position: absolute;
-  margin-top: -145px;
-  margin-left: 60px;
-  margin-right: 500px;
+  margin-top: 39px;
   line-height: 1.5;
 }
 .symbol-net {
   display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  margin-left: 60px;
-  margin-top: 340px;
+}
+.symbol-net-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 59px;
   height: 59px;
-}
-.facebook {
   background-color: #c8cdd0;
   margin-right: 1px;
+  margin-top: 55px;
 }
-
-.twitter {
-  background-color: #c8cdd0;
-  margin-right: 1px;
+.symbol-net-item:hover {
+  background-color: #8d9194;
 }
-.google {
-  background-color: #c8cdd0;
-  margin-right: 1px;
+.tasks {
+  margin-bottom: 100px;
+  margin-top: 70px;
 }
-.ball {
-  background-color: #c8cdd0;
-  margin-right: 1px;
-}
-.be {
-  background-color: #c8cdd0;
-  margin-right: 1px;
-}
-[class*="modest-num-"] {
+.modest-num {
   width: 50px;
   height: 50px;
   background-color: #39a493;
   color: white;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 100;
-  padding: 16px;
-  margin-left: 600px;
-}
-.modest-num-1 {
-  position: absolute;
-  margin-top: -328px;
+  text-align: center;
+  line-height: 50px;
 }
 
-.modest-num-2 {
-  position: relative;
-  margin-top: -217px;
-}
-.modest-num-3 {
-  position: relative;
-  margin-top: 70px;
-}
-[class*="modest-right-title-"] {
+.modest-right-title {
   font-size: 15px;
   font-weight: 600;
-  margin-left: 670px;
+  padding-bottom: 10px;
 }
-.modest-right-title-1 {
-  position: absolute;
-  margin-top: -329px;
-}
-.modest-right-title-2 {
-  position: absolute;
-  margin-top: -52px;
-}
-.modest-right-title-3 {
-  position: absolute;
-  margin-top: -52px;
-}
-.modest-right-p1 {
-  position: absolute;
-  margin-top: -300px;
-  margin-left: 670px;
-  line-height: 1.5;
-}
-.modest-right-p2 {
-  position: absolute;
-  margin-top: -20px;
-  margin-left: 670px;
-  line-height: 1.5;
-}
-.modest-right-p3 {
-  position: absolute;
-  margin-top: -20px;
-  margin-left: 670px;
+.modest-right-p {
+  padding-bottom: 20px;
   line-height: 1.5;
 }
 
